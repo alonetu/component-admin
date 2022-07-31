@@ -2,7 +2,7 @@
 import { onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import btnJson from '@/assets/animation/login-btn.json'
-import { jsonAnimation } from '@/utils/common'
+import { jsonAnimation } from '@/utils/index'
 
 const router = useRouter()
 

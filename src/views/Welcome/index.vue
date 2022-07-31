@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
-import { jsonAnimation } from '@/utils/common'
+import { jsonAnimation } from '@/utils/index'
 import backgroundJson from '@/assets/animation/home-bg.json'
 
 onMounted(() => {

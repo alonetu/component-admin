@@ -12,7 +12,6 @@ const getMenu = () => {
       component: item.component
     })
   })
-  console.log(arr)
   return arr
 }
 
@@ -35,7 +34,6 @@ const routes: Array<RouteRecordRaw> = [
     redirect: { name: 'login' }
   }
 ]
-console.log(routes)
 
 const router = createRouter({
   history: createWebHashHistory(),

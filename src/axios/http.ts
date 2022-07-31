@@ -6,6 +6,7 @@ const instance = axios.create({
   timeout: 1000,
   baseURL: ''
 })
+
 // axios的全局配置
 instance.defaults.headers.post = {
   'Content-Type': 'application/x-www-form-urlencoded'
